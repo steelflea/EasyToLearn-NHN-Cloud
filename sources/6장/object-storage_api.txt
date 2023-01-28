@@ -1,0 +1,17 @@
+<for linux>
+curl -X POST -H 'Content-Type:application/json' https://api-identity.infrastructure.cloud.toast.com/v2.0/tokens -d '{"auth": {"tenantId": "fc367b3c806548e39e0798d6b23e2d91", "passwordCredentials": {"username": "steelflea@outlook.com", "password": "new1234"}}}'
+
+<for windows>
+curl -X POST -H "Content-Type:application/json" https://api-identity.infrastructure.cloud.toast.com/v2.0/tokens -d "{\"auth\": {\"tenantId\": \"cc85a57baa444d36bd0ed9168700ea47\", \"passwordCredentials\": {\"username\": \"steelflea@nhn.com\", \"password\": \"nhn20@@0401\"}}}"
+
+gAAAAABi79QjyZBRelFp3NRiX9ipciaLx7mrD_lu85Df9QmFwFc2rgvlKTFc1Y591lt-rAIzN5JqoBSCBolepJTwl_tGtlR89FBAbtEUoLxE4h0MknqC_TdxkNT9j1qLHZWrcSRwp6dN9tBLy7Qe48undJhOxXYur8NH2sKpYJXUa0ybv7hn6J4
+
+#객체 다운로드
+curl -O -X GET -H "X-Auth-Token: gAAAAABi79QjyZBRelFp3NRiX9ipciaLx7mrD_lu85Df9QmFwFc2rgvlKTFc1Y591lt-rAIzN5JqoBSCBolepJTwl_tGtlR89FBAbtEUoLxE4h0MknqC_TdxkNT9j1qLHZWrcSRwp6dN9tBLy7Qe48undJhOxXYur8NH2sKpYJXUa0ybv7hn6J4" https://kr2-api-storage.cloud.toast.com/v1/AUTH_cc85a57baa444d36bd0ed9168700ea47/secure_data/vmdefence_key.pem
+
+#스토리지 계정 조회
+curl -I -H "X-Auth-Token: gAAAAABi79QjyZBRelFp3NRiX9ipciaLx7mrD_lu85Df9QmFwFc2rgvlKTFc1Y591lt-rAIzN5JqoBSCBolepJTwl_tGtlR89FBAbtEUoLxE4h0MknqC_TdxkNT9j1qLHZWrcSRwp6dN9tBLy7Qe48undJhOxXYur8NH2sKpYJXUa0ybv7hn6J4" https://kr2-api-storage.cloud.toast.com/v1/AUTH_cc85a57baa444d36bd0ed9168700ea47
+
+
+#컨테이너 조회
+curl -X GET -H "X-Auth-Token: gAAAAABi79QjyZBRelFp3NRiX9ipciaLx7mrD_lu85Df9QmFwFc2rgvlKTFc1Y591lt-rAIzN5JqoBSCBolepJTwl_tGtlR89FBAbtEUoLxE4h0MknqC_TdxkNT9j1qLHZWrcSRwp6dN9tBLy7Qe48undJhOxXYur8NH2sKpYJXUa0ybv7hn6J4" https://kr2-api-storage.cloud.toast.com/v1/AUTH_cc85a57baa444d36bd0ed9168700ea47

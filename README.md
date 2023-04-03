@@ -3,11 +3,9 @@
 <img src="https://user-images.githubusercontent.com/36403352/229451137-ec12167c-546b-4d16-95d1-8134b5ec43c0.png" width="85%"></img>
 
 ### 도서 구매 하기
-> + 교보문고 
-> + 예스24 
-> + 알라딘 
-> + 인터파크도서 
-> + 한빛미디어 
+> + 교보문고 http://bit.ly/42Z809e
+> + 예스24 http://bit.ly/3nEbldM
+> + 알라딘 http://bit.ly/3K7Qqav
 
 ### 책 소개
 -----------

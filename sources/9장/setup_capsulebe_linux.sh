@@ -33,5 +33,4 @@ apt-get update
 apt-get -y install nginx
 
 # index.html 파일 만들기
-fileName=/var/www/html/index.html
-echo "Running Capsule Management API and Power Management Service from host $(hostname)">${fileName}
+echo "Running Capsule Management API and Power Management Service from host $(hostname)" > /var/www/html/index.html
